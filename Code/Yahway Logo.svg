@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1121.63 260.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f93943;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: .52px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #7eb2dd;
+      }
+
+      .cls-5 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        fill: #fc7a1e;
+      }
+
+      .cls-6 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        fill: red;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-10 {
+        font-family: Comixo-Regular, Comixo;
+        font-size: 255.96px;
+      }
+
+      .cls-4 {
+        stroke-width: .55px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-4" d="m85.83,224.4L18.53,138.65C-10.92,101.12-3.99,46.77,33.92,17.82h0c30.65-23.4,73.17-23.4,103.82,0h0c37.92,28.94,44.84,83.3,15.39,120.82l-67.3,85.75Z"/>
+      <g>
+        <g>
+          <path class="cls-3" d="m59.21,99.93c0-13.99,12.18-25.32,27.2-25.32s27.2,11.34,27.2,25.32h-54.41Z"/>
+          <circle class="cls-3" cx="85.54" cy="60.71" r="10.27"/>
+        </g>
+        <g>
+          <path class="cls-2" d="m27.66,110.06c0-13.99,12.18-25.32,27.2-25.32s27.2,11.34,27.2,25.32H27.66Z"/>
+          <circle class="cls-2" cx="54" cy="70.84" r="10.27"/>
+        </g>
+        <g>
+          <path class="cls-1" d="m89.59,110.06c0-13.99,12.18-25.32,27.2-25.32s27.2,11.34,27.2,25.32h-54.41Z"/>
+          <circle class="cls-1" cx="115.93" cy="70.84" r="10.27"/>
+        </g>
+      </g>
+    </g>
+    <text class="cls-10" transform="translate(196.85 204.96)"><tspan class="cls-6" x="0" y="0">Y</tspan><tspan class="cls-5" x="118.76" y="0">AH</tspan><tspan class="cls-9" x="436.16" y="0">W</tspan><tspan class="cls-7" x="638.88" y="0">A</tspan><tspan class="cls-8" x="767.88" y="0">Y</tspan></text>
+  </g>
+</svg>

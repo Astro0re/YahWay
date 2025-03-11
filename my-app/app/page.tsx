@@ -23,7 +23,7 @@ export default function Home() {
     <NavigationMenuItem>
       <NavigationMenuTrigger>Map</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <NavigationMenuLink></NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
     <NavigationMenuItem>
@@ -52,29 +52,6 @@ export default function Home() {
       <Button>Click me</Button>
     </div>
     
-    <div>
-    <h1>Welcome to YahWay</h1>
-        <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
-        <p>With our carefully scouted and trusted church partners</p>
-        <p> Let us connect you with a church to call home</p>
-    </div>
-    
-    <div>
-      <h2>What do we do?</h2>
-        <p>We offer christian community building services</p>
-        <p>Allowign for the connection of more people to the love of God.</p>
-        <h3>Our Goal</h3>
-        <p>Connect our users to christ loving chruches closest to them(map)</p>
-        <p>Provide a platform for the sale of christian essentials(store)</p>
-        <p>Give access to life changing events(events)</p>
-        <h3>Our Mission</h3>
-        <p>To fufill the great commision.</p>
-    </div>
-
-        <div>
-          <h2>Our Partners</h2>
-        </div>
-
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
@@ -96,6 +73,34 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+
+
+        <div className="flex gap-4 items-center flex-col sm:flex-row">
+    <h1>Welcome to YahWay</h1>
+        <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
+        <p>With our carefully scouted and trusted church partners</p>
+        <p> Let us connect you with a church to call home</p>
+    </div>
+    
+    <div className="flex gap-4 items-center flex-col sm:flex-row">
+      <h2>What do we do?</h2>
+        <p>We offer christian community building services</p>
+        <p>Allowign for the connection of more people to the love of God.</p>
+        
+        <h3>Our Goal</h3>
+        <p>Connect our users to christ loving chruches closest to them(map)</p>
+        <p>Provide a platform for the sale of christian essentials(store)</p>
+        <p>Give access to life changing events(events)</p>
+        
+        <h3>Our Mission</h3>
+        <p>To fufill the great commision.</p>
+    </div>
+
+        <div>
+          <h2>Our Partners</h2>
+
+        </div>
+
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a

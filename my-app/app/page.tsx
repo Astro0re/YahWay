@@ -18,6 +18,8 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       
+  
+      
       <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
@@ -56,14 +58,18 @@ export default function Home() {
 </NavigationMenu>
 
       
-       <div>
-      <Button>Click me</Button>
-    </div>
+       
     
-      <main className="flex flex-col gap-[35px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-[80px] row-start-2 items-center justifty-center sm:items-start">
        
 
         <div className="flex gap-4 items-center flex-col">
+        <Image
+      src="/Yahway Logo.svg"
+      alt="logo"
+      height={100}
+      width={100}
+      />
     <h1>Welcome to YahWay</h1>
         <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
         <p>With our carefully scouted and trusted church partners</p>
@@ -99,7 +105,10 @@ export default function Home() {
         <div className="flex gap-4 items-center flex-col sm:flex-row">
 
 
-      </div>
+      </div>  
+      <div>
+      <Button>Click me</Button>
+    </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a

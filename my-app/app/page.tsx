@@ -60,10 +60,10 @@ export default function Home() {
       
        
     
-      <main className="flex flex-col gap-[80px] row-start-2 items-center justifty-center sm:items-start">
+      <main className="flex flex-col gap-[80px] row-start-2 items-center justifty-center sm:items-start items-center justify-center">
        
 
-        <div className="flex gap-4 items-center flex-col">
+        <div className="flex gap-5 flex-col items-center justify-center ">
         <Image
       src="/Yahway Logo.svg"
       alt="logo"
@@ -76,7 +76,7 @@ export default function Home() {
         <p> Let us connect you with a church to call home</p>
     </div>
     
-    <div className="flex gap-4 items-center flex-col">
+    <div className="flex gap-5 items-center flex-col items-center justify-center ">
       <h2>What do we do?</h2>
         <p>We offer christian community building services</p>
         <p>Allowign for the connection of more people to the love of God.</p>
@@ -95,21 +95,23 @@ export default function Home() {
 
         </div>
 
-        <div className="flex gap-5 items-center flex-col ">
+        <div className="flex gap-5 items-center flex-col items-center justify-center ">
           <h2>OUR SERVICES</h2>
           <p>MAP: Get in contact with the church of your choice closest to you</p>
           <p>SHOP: For all your christian fits and essentials.</p>
           <p>EVENTS: Get tickets to impactful events that are sure to change your life for the better</p>
         </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+        <div className="flex gap-4 items-center flex-col sm:flex-row items-center justify-center">
 
 
       </div>  
-      <div>
+      <div className="flex gap-5 items-center flex-col items-center justify-center">
       <Button>Click me</Button>
-    </div>
+      </div>
+
       </main>
+
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"

@@ -16,68 +16,53 @@ import {
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="items-center justify-items-center">
       
-  
-      
-      <NavigationMenu>
+  <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"> 
+  <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
       <NavigationMenuTrigger>Map</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink  href=""
-            target="_blank"
-            rel="noopener noreferrer">Map</NavigationMenuLink>
+        <NavigationMenuLink> </NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
     <NavigationMenuItem>
       <NavigationMenuTrigger>Shop</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink  href="/my-app/app/Shop.tsx"
-            target="_blank"
-            rel="noopener noreferrer">Shop</NavigationMenuLink>
+        <NavigationMenuLink> </NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
     <NavigationMenuItem>
       <NavigationMenuTrigger>Events</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink href="/my-app/app/Events.tsx"
-            target="_blank"
-            rel="noopener noreferrer">Events</NavigationMenuLink>
+        <NavigationMenuLink> </NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
     <NavigationMenuItem>
       <NavigationMenuTrigger>Partners</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink href="/my-app/app/Partners.tsx"
-            target="_blank"
-            rel="noopener noreferrer">Partners</NavigationMenuLink>
+        <NavigationMenuLink> </NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
   </NavigationMenuList>
 </NavigationMenu>
 
-      
-       
-    
-      <main className="flex flex-col gap-[80px] row-start-2 items-center justifty-center sm:items-start items-center justify-center">
-       
-
-        <div className="flex gap-5 flex-col items-center justify-center ">
-        <Image
+  <Image
       src="/Yahway Logo.svg"
       alt="logo"
       height={100}
       width={100}
       />
+
+    <p>Hi</p>
+    
     <h1>Welcome to YahWay</h1>
         <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
         <p>With our carefully scouted and trusted church partners</p>
         <p> Let us connect you with a church to call home</p>
-    </div>
-    
-    <div className="flex gap-5 items-center flex-col items-center justify-center ">
-      <h2>What do we do?</h2>
+
+        <h2>What do we do?</h2>
         <p>We offer christian community building services</p>
         <p>Allowign for the connection of more people to the love of God.</p>
         
@@ -88,27 +73,37 @@ export default function Home() {
         
         <h3>Our Mission</h3>
         <p>To fufill the great commision.</p>
-    </div>
+  </div>
+      
 
-        <div>
-          <h2>Our Partners</h2>
+      
+       
+    
+      <main className="flex flex-col gap-[80px] row-start-2 items-center justifty-center sm:items-start items-center justify-center">
+       
+      <Image
+      src="/Yahway Logo.svg"
+      alt="logo"
+      height={100}
+      width={100}
+      />
+    <p>Hi</p>
+    <h1>Welcome to YahWay</h1>
+        <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
+        <p>With our carefully scouted and trusted church partners</p>
+        <p> Let us connect you with a church to call home</p>
 
-        </div>
-
-        <div className="flex gap-5 items-center flex-col items-center justify-center ">
-          <h2>OUR SERVICES</h2>
-          <p>MAP: Get in contact with the church of your choice closest to you</p>
-          <p>SHOP: For all your christian fits and essentials.</p>
-          <p>EVENTS: Get tickets to impactful events that are sure to change your life for the better</p>
-        </div>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row items-center justify-center">
-
-
-      </div>  
-      <div className="flex gap-5 items-center flex-col items-center justify-center">
-      <Button>Click me</Button>
-      </div>
+        <h2>What do we do?</h2>
+        <p>We offer christian community building services</p>
+        <p>Allowign for the connection of more people to the love of God.</p>
+        
+        <h3>Our Goal</h3>
+        <p>Connect our users to christ loving chruches closest to them(map)</p>
+        <p>Provide a platform for the sale of christian essentials(store)</p>
+        <p>Give access to life changing events(events)</p>
+        
+        <h3>Our Mission</h3>
+        <p>To fufill the great commision.</p>
 
       </main>
 

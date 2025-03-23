@@ -18,7 +18,9 @@ export default function Home() {
   return (
     <div className="items-center justify-items-center">
       
-  <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"> 
+  
+    <header>
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"> 
   <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
@@ -48,30 +50,33 @@ export default function Home() {
   </NavigationMenuList>
 </NavigationMenu>
   </div>
-  
-  <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-  <Image
+    </header>
+    
+      <main className="flex flex-col gap-[20px] col-start-1 items-center justifty-center sm:items-start items-center justify-center">
+       
+      
+
+       <div>
+      <Image
       src="/Yahway Logo.svg"
       alt="logo"
       height={100}
       width={100}
       />
-
     <p>Hi</p>
-    <div id="Hero">
     <h1>Welcome to YahWay</h1>
         <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
-        <p>Let us connect you with a church to call home</p>
-
-        <p>It was written in the stars</p>
-        <p>Note: Starry (GOD X YOU) Design</p>
-    </div>
-    <div id="What-we-do">
+        <p>With our carefully scouted and trusted church partners</p>
+        <p> Let us connect you with a church to call home</p>
+        </div>
+        
+        <div id="What-we-do">
     <h2>Our Services</h2>
         <p>Get in contact with the church of your choice closest to you.</p>
         <p>For all your chirstian fits and essentials.</p>
         <p>Get tickets to impactful events that are sure to change your life.</p>  
     </div>
+    
     <div id="Info">
         <h2>What do we do?</h2>
         <p>We offer christian community building services</p>
@@ -84,28 +89,8 @@ export default function Home() {
         
         <h3>Our Mission</h3>
         <p>To fufill the great commision.</p>
-    </div> 
     </div>
-
-      
-
-      
-       
     
-      <main className="flex flex-col gap-[80px] row-start-2 items-center justifty-center sm:items-start items-center justify-center">
-       
-      <Image
-      src="/Yahway Logo.svg"
-      alt="logo"
-      height={100}
-      width={100}
-      />
-    <p>Hi</p>
-    <h1>Welcome to YahWay</h1>
-        <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
-        <p>With our carefully scouted and trusted church partners</p>
-        <p> Let us connect you with a church to call home</p>
-
       </main>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">

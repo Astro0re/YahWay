@@ -1,14 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  
-} from "@/components/ui/navigation-menu"
+
 
 
 

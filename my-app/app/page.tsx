@@ -16,147 +16,19 @@ import {
 
 export default function Home() {
   return (
-    <div className=" items-center justify-items-center">
-      
-      
+  <div>
 
-
-    <div id="Navigation?" className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-    <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
+      <main>
+        <Image
             aria-hidden
             src="/globe.svg"
             alt="Globe icon"
             width={16}
             height={16}
           />
-          Map →
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Shop →
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Events →
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Our Partners →
-        </a>
-    </div>
-  
-    <header>
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"> 
-  <NavigationMenu>
-  <NavigationMenuList>
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>Map</NavigationMenuTrigger>
-      <NavigationMenuContent>
-        <NavigationMenuLink> </NavigationMenuLink>
-      </NavigationMenuContent>
-    </NavigationMenuItem>
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>Shop</NavigationMenuTrigger>
-      <NavigationMenuContent>
-        <NavigationMenuLink> </NavigationMenuLink>
-      </NavigationMenuContent>
-    </NavigationMenuItem>
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>Events</NavigationMenuTrigger>
-      <NavigationMenuContent>
-        <NavigationMenuLink> </NavigationMenuLink>
-      </NavigationMenuContent>
-    </NavigationMenuItem>
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>Partners</NavigationMenuTrigger>
-      <NavigationMenuContent>
-        <NavigationMenuLink> </NavigationMenuLink>
-      </NavigationMenuContent>
-    </NavigationMenuItem>
-  </NavigationMenuList>
-</NavigationMenu>
-  </div>
-    </header>
-    
-<main className="flex flex-col gap-[20px] row-start-5 items-center justifty-center sm:items-start items-center justify-center">
-       
-      
-
-    <div>
-          <Image
-          src="/Yahway Logo.svg"
-          alt="logo"
-          height={100}
-          width={100}
-          />
-        <p>Hi</p>
-        <h1>Welcome to YahWay</h1>
-            <h2>LET US HELP YOU GET CLOSER TO GOD TODAY</h2>
-            <p>With our carefully scouted and trusted church partners</p>
-            <p> Let us connect you with a church to call home</p>
-    </div>
-        
-    <div id="What-we-do">
-        <h2>Our Services</h2>
-            <p>Get in contact with the church of your choice closest to you.</p>
-            <p>For all your chirstian fits and essentials.</p>
-            <p>Get tickets to impactful events that are sure to change your life.</p>  
-    </div>
-    
-    <div id="Info">
-          <h2>What do we do?</h2>
-          <p>We offer christian community building services</p>
-          <p>Allowing for the connection of more people to the love of God.</p>
-        
-          <h3>Our Goal</h3>
-          <p>Connect our users to christ loving chruches closest to them(map)</p>
-          <p>Provide a platform for the sale of christian essentials(store)</p>
-          <p>Give access to life changing events(events)</p>
-          
-          <h3>Our Mission</h3>
-          <p>To fufill the great commision.</p>
-    </div>
-    
-</main>
+          <h1>Welcome to Yahway</h1>
+          <p>Let us help you get closer to God today</p>
+      </main>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
@@ -205,8 +77,8 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-   
-    </div>
+    
+   </div>
     
   );
   return (

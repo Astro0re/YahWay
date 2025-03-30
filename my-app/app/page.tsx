@@ -21,6 +21,16 @@ export default function Home() {
           />
           <h1>Welcome to Yahway</h1>
           <p>Let us help you get closer to God today</p>
+
+          <h2>What do we do?</h2>
+        <p>We offer christian community building services</p>
+        <p>Allowign for the connection of more people to the love of God.</p>
+        <h3>Our Goal</h3>
+        <p>Connect our users to christ loving chruches closest to them(map)</p>
+        <p>Provide a platform for the sale of christian essentials(store)</p>
+        <p>Give access to life changing events(events)</p>
+        <h3>Our Mission</h3>
+        <p>To fufill the great commision.</p>
       
       </main>
 

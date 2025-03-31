@@ -1,2 +1,2 @@
 # YahWay
-Christian Social Site?
+Church Mapping, Store, Ticket Sales, partnerships etc

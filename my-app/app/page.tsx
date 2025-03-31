@@ -38,9 +38,36 @@ export default function Home() {
           <h3>Our Mission</h3>
           <p>To fufill the great commision.</p>
           </div>
+          
+          <div className="p-6">
+          <h2>Our Services</h2>
+          <p>Get in contact with the church of your choice closest to you.</p>
+          <p>For all your chirstian fits and essentials.</p>
+          <p>Get tickets to impactful events that are sure to change your life.</p>
+          </div>
       </main>
 
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer >
+
+        <h1>Contact Us</h1>
+
+        <div className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/file.svg"
+            alt="File icon"
+            width={16}
+            height={16}
+          />
+          Email
+        </a>
+
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href=""
@@ -86,6 +113,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+        </div>
       </footer>
     
    </div>

@@ -41,7 +41,7 @@ export default function Home() {
             
             <Button
               className="mt-4"
-              variant="primary"
+              variant="secondary"
               size="lg"
               onClick={() => window.location.href = "/find-church"}
             >

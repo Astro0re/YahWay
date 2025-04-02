@@ -45,15 +45,17 @@ export default function Home() {
             
             <Button
               className="mt-4"
+              variant="secondary"
               size="lg"
-              onClick={() => window.location.href = "/my-app/app/user/find-church"}
+              onClick={() => window.location.href = "/find-church"}
             >
               Find a Church
             </Button>
             <Button
               className="mt-4"
+              variant="secondary"
               size="lg"
-              onClick={() => window.location.href = "/my-app/app/user/visit-store"}
+              onClick={() => window.location.href = "/visit-store"}
             >
               Visit Our Store
             </Button>
@@ -61,7 +63,7 @@ export default function Home() {
               className="mt-4"
               variant="outline"
               size="lg"
-              onClick={() => window.location.href = "/my-app/app/user/explore-events"}
+              onClick={() => window.location.href = "/explore-events"}
             >
               Explore Events
             </Button>

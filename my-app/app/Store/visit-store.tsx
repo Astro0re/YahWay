@@ -2,10 +2,6 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 
 
-
-
-
-
 export default function Home() {
   return (
   <div className=" text-sm md:text-lg text-center p-6">
@@ -45,7 +41,7 @@ export default function Home() {
             
             <Button
               className="mt-4"
-              variant="secondary"
+              variant="primary"
               size="lg"
               onClick={() => window.location.href = "/find-church"}
             >

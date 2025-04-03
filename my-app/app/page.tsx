@@ -11,6 +11,8 @@ export default function Home() {
   <div className=" text-sm md:text-lg text-center p-6">
 
       <main className=" p-6">
+        
+        
         <Image
             aria-hidden
             src="/Yahway Logo.svg"
@@ -19,6 +21,18 @@ export default function Home() {
             height={150}
             className="items- center"
           />
+        
+        <div className=" flex flex-row gap-8 text-lg">
+        <a 
+        href="/my-app/app/user/find-church">Map</a>
+        <a 
+        href="/my-app/app/user/find-church">Store</a>
+        <a 
+        href="/my-app/app/user/find-church">Events</a>
+        <a 
+        href="/my-app/app/user/find-church">Partners</a>
+        </div>
+
           <div className="p-6">
           <h1>Welcome to Yahway</h1>
           <p>Let us help you get closer to God today</p>
@@ -43,28 +57,6 @@ export default function Home() {
           <h2>Our Services</h2>
             <p>Get in contact with the church of your choice closest to you.</p>
             
-            <Button
-              className="mt-4"
-              size="lg"
-              onClick={() => window.location.href = "/my-app/app/user/find-church"}
-            >
-              Find a Church
-            </Button>
-            <Button
-              className="mt-4"
-              size="lg"
-              onClick={() => window.location.href = "/my-app/app/user/visit-store"}
-            >
-              Visit Our Store
-            </Button>
-            <Button
-              className="mt-4"
-              variant="outline"
-              size="lg"
-              onClick={() => window.location.href = "/my-app/app/user/explore-events"}
-            >
-              Explore Events
-            </Button>
           <p>For all your chirstian fits and essentials.</p>
           <p>Get tickets to impactful events that are sure to change your life.</p>
           </div>

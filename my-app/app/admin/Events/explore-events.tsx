@@ -20,35 +20,17 @@ export default function Home() {
             className="items- center"
           />
           
-          <div className="p-6">
-            
-            <Button
-              className="mt-4"
-              variant="secondary"
-              size="lg"
-              onClick={() => window.location.href = "/find-church"}
-            >
-              Find a Church
-            </Button>
-            <Button
-              className="mt-4"
-              variant="secondary"
-              size="lg"
-              onClick={() => window.location.href = "/visit-store"}
-            >
-              Visit Our Store
-            </Button>
-            <Button
-              className="mt-4"
-              variant="outline"
-              size="lg"
-              onClick={() => window.location.href = "/explore-events"}
-            >
-              Explore Events
-            </Button>
-          <p>For all your chirstian fits and essentials.</p>
-          <p>Get tickets to impactful events that are sure to change your life.</p>
-          </div>
+          <div className=" flex flex-row gap-8 text-lg">
+        <a 
+        href="/my-app/app/user/find-church">Map</a>
+        <a 
+        href="/my-app/app/user/find-church">Store</a>
+        <a 
+        href="/my-app/app/user/find-church">Events</a>
+        <a 
+        href="/my-app/app/user/find-church">Partners</a>
+        </div>
+        
       </main>
 
       <footer >

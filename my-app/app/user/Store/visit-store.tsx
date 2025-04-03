@@ -2,6 +2,10 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 
 
+
+
+
+
 export default function Home() {
   return (
   <div className=" text-sm md:text-lg text-center p-6">
@@ -15,29 +19,8 @@ export default function Home() {
             height={150}
             className="items- center"
           />
-          <div className="p-6">
-          <h1>Welcome to Yahway</h1>
-          <p>Let us help you get closer to God today</p>
-          </div>
-
-          <div className="p-6">
-          <h2>What do we do?</h2>
-          <p>We offer christian community building services</p>
-          <p>Allowign for the connection of more people to the love of God.</p>
-          </div>
-
-          <div className="p-6">
-          <h3>Our Goal</h3>
-          <p>Connect our users to christ loving chruches closest to them(map)</p>
-          <p>Provide a platform for the sale of christian essentials(store)</p>
-          <p>Give access to life changing events(events)</p>
-          <h3>Our Mission</h3>
-          <p>To fufill the great commision.</p>
-          </div>
           
           <div className="p-6">
-          <h2>Our Services</h2>
-            <p>Get in contact with the church of your choice closest to you.</p>
             
             <Button
               className="mt-4"
@@ -63,8 +46,6 @@ export default function Home() {
             >
               Explore Events
             </Button>
-          <p>For all your chirstian fits and essentials.</p>
-          <p>Get tickets to impactful events that are sure to change your life.</p>
           </div>
       </main>
 

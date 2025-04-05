@@ -24,18 +24,26 @@ export default function Home() {
         
         <div className=" flex flex-row gap-8 text-lg">
         <a 
-        href="/my-app/app/user/find-church">Map</a>
+        href="/user/find-church">Map</a>
         <a 
-        href="/my-app/app/user/find-church">Store</a>
+        href="/user/find-church">Store</a>
         <a 
-        href="/my-app/app/user/find-church">Events</a>
+        href="/user/find-church">Events</a>
         <a 
-        href="/my-app/app/user/find-church">Partners</a>
+        href="/user/find-church">Partners</a>
         </div>
 
+        <section className="bg-white p-6 rounded-lg shadow">
+            <h2 className="text-2xl font-bold mb-4">Topics</h2>
+            <div className="flex mb-4">
+                <h1>Welcome to Yahway</h1>
+                <p>Let us help you get closer to God today</p>
+            </div>
+            <ul id="taskList" className="space-y-2"></ul>
+        </section>
+
           <div className="p-6">
-          <h1>Welcome to Yahway</h1>
-          <p>Let us help you get closer to God today</p>
+          
           </div>
 
           <div className="p-6">

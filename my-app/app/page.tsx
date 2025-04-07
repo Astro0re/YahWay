@@ -34,23 +34,21 @@ export default function Home() {
         </div>
 
         <section className="bg-white p-6 rounded-lg shadow">
-            <h2 className="text-2xl font-bold mb-4">Topics</h2>
             <div className="flex mb-4">
                 <h1>Welcome to Yahway</h1>
                 <p>Let us help you get closer to God today</p>
             </div>
-            <ul id="taskList" className="space-y-2"></ul>
+            
         </section>
 
-          <div className="p-6">
-          
-          </div>
-
-          <div className="p-6">
-          <h2>What do we do?</h2>
+        <section className="bg-white p-6 rounded-lg shadow">
+        <div className="flex mb-4 p-6">
+        <h2>What do we do?</h2>
           <p>We offer christian community building services</p>
           <p>Allowign for the connection of more people to the love of God.</p>
-          </div>
+        </div>
+        </section>
+
 
           <div className="p-6">
           <h3>Our Goal</h3>

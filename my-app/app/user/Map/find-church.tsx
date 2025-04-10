@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 
 
-export default function Home() {
+export default function Find_Church() {
   return (
   <div className=" text-sm md:text-lg text-center p-6">
 

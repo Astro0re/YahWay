@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 
 
-export default function Home() {
+export default function Store() {
   return (
   <div className=" text-sm md:text-lg text-center p-6">
 

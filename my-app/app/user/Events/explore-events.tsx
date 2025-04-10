@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 
 
-export default function Home() {
+export default function Events() {
   return (
   <div className=" text-sm md:text-lg text-center p-6">
 
@@ -31,6 +31,8 @@ export default function Home() {
         href="/my-app/app/user/find-church">Partners</a>
         </div>
         
+
+
       </main>
 
       <footer >

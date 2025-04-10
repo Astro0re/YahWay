@@ -1,11 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
 
-
-
-
-
-
 export default function Home() {
   return (
   <div className=" text-sm md:text-lg text-center p-6">
@@ -24,22 +19,24 @@ export default function Home() {
         
         <div className=" flex flex-row gap-8 text-lg">
         <a 
-        href="/user/find-church">Map</a>
+        href="/user/find-church.tsx">Map</a>
         <a 
-        href="/user/find-church">Store</a>
+        href="/user/visit-store.tsx">Store</a>
         <a 
-        href="/user/find-church">Events</a>
+        href="/user/explore-events.tsx">Events</a>
         <a 
-        href="/user/find-church">Partners</a>
+        href="/user/partners.tsx">Partners</a>
         </div>
 
         <section className="bg-white p-6 rounded-lg shadow">
+            
+            <h2 className="text-2xl font-bold mb-4">Welcome to YahWay</h2>
             <div className="flex mb-4">
-                <h1>Welcome to Yahway</h1>
                 <p>Let us help you get closer to God today</p>
             </div>
-            
+                
         </section>
+        
 
         <section className="bg-white p-6 rounded-lg shadow">
         <div className="flex mb-4 p-6">
@@ -50,7 +47,9 @@ export default function Home() {
         </section>
 
 
-          <div className="p-6">
+        
+        <section className="bg-white p-6 rounded-lg shadow">
+        <div className="flex mb-4 p-6">
           <h3>Our Goal</h3>
           <p>Connect our users to christ loving chruches closest to them(map)</p>
           <p>Provide a platform for the sale of christian essentials(store)</p>
@@ -58,14 +57,19 @@ export default function Home() {
           <h3>Our Mission</h3>
           <p>To fufill the great commision.</p>
           </div>
-          
-          <div className="p-6">
-          <h2>Our Services</h2>
-            <p>Get in contact with the church of your choice closest to you.</p>
-            
+        </section>
+
+
+        <section className="bg-white p-6 rounded-lg shadow">
+        <div className="flex mb-4 p-6">
+        <h2>Our Services</h2>
+          <p>Get in contact with the church of your choice closest to you.</p>
           <p>For all your chirstian fits and essentials.</p>
           <p>Get tickets to impactful events that are sure to change your life.</p>
           </div>
+        </section>
+          
+
       </main>
 
       <footer >

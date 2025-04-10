@@ -68,6 +68,27 @@ export default function Home() {
           <p>Get tickets to impactful events that are sure to change your life.</p>
           </div>
         </section>
+
+        <section className="bg-white p-6 rounded-lg shadow">
+        <div className="mb-4 p-2">
+        <h2>Our Partners</h2>
+          <div className="flex ">
+            <div>
+              <Image
+              aria-hidden
+              src="/Yahway Logo.svg"
+              alt="Partner"
+              width={90}
+              height={90}
+              className="items- center"
+              />
+              <p></p>
+            </div>
+              
+          
+          </div>  
+        </div>
+        </section>
           
 
       </main>

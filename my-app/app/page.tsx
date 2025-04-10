@@ -31,7 +31,7 @@ export default function Home() {
         <section className="bg-white p-6 rounded-lg shadow">
             
             <h2 className="text-2xl font-bold mb-4">Welcome to YahWay</h2>
-            <div className="flex mb-4">
+            <div className="mb-4">
                 <p>Let us help you get closer to God today</p>
             </div>
                 
@@ -39,7 +39,7 @@ export default function Home() {
         
 
         <section className="bg-white p-6 rounded-lg shadow">
-        <div className="flex mb-4 p-6">
+        <div className="mb-4 p-2">
         <h2>What do we do?</h2>
           <p>We offer christian community building services</p>
           <p>Allowign for the connection of more people to the love of God.</p>
@@ -49,7 +49,7 @@ export default function Home() {
 
         
         <section className="bg-white p-6 rounded-lg shadow">
-        <div className="flex mb-4 p-6">
+        <div className="mb-4 p-2">
           <h3>Our Goal</h3>
           <p>Connect our users to christ loving chruches closest to them(map)</p>
           <p>Provide a platform for the sale of christian essentials(store)</p>
@@ -61,7 +61,7 @@ export default function Home() {
 
 
         <section className="bg-white p-6 rounded-lg shadow">
-        <div className="flex mb-4 p-6">
+        <div className="mb-4 p-2">
         <h2>Our Services</h2>
           <p>Get in contact with the church of your choice closest to you.</p>
           <p>For all your chirstian fits and essentials.</p>

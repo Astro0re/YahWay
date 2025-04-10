@@ -22,13 +22,13 @@ export default function Find_Church() {
           
           <div className=" flex flex-row gap-8 text-lg">
         <a 
-        href="/my-app/app/user/find-church">Map</a>
+        href="/user/find-church.tsx">Map</a>
         <a 
-        href="/my-app/app/user/find-church">Store</a>
+        href="/user/visit-store.tsx">Store</a>
         <a 
-        href="/my-app/app/user/find-church">Events</a>
+        href="/user/explore-events.tsx">Events</a>
         <a 
-        href="/my-app/app/user/find-church">Partners</a>
+        href="/user/partners.tsx">Partners</a>
         </div>
         
       </main>

@@ -19,13 +19,13 @@ export default function Home() {
         
         <div className=" flex flex-row gap-8 text-lg">
         <a 
-        href="/user/find-church.tsx">Map</a>
+        href="/user/find-church">Map</a>
         <a 
-        href="/user/visit-store.tsx">Store</a>
+        href="/user/visit-store">Store</a>
         <a 
-        href="/user/explore-events.tsx">Events</a>
+        href="/user/explore-events">Events</a>
         <a 
-        href="/user/partners.tsx">Partners</a>
+        href="/user/partners.ts">Partners</a>
         </div>
 
         <section className="bg-white p-6 rounded-lg shadow">

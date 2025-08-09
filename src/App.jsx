@@ -4,14 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import YahwayLogo from './assets/Yahway Logo.svg'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <a href="" >
+            <img src={YahwayLogo} alt="Yahway Logo" className="logo align-left m-10"/>
+          </a>
       <Header />
       <div>
+        
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>

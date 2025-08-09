@@ -1,16 +1,18 @@
-export default function footer(){
+import YahwayLogo from '../assets/Yahway Logo.svg'
+
+export default function footer() {
     return(
-        <footer>
+        <>
             <h3>Contact Us</h3>
             <p>Reach out to us on these platforms</p>
             <div>
                 <figure>
-                <img src="@Code/Visuals/Yahway Logo.svg"></img>
+                <img src={YahwayLogo}></img>
                 <label> Email </label>
                 </figure>
                 
                 <figure>
-                <img src="@Code/Visuals/Yahway Logo.svg"></img>
+                <img src={YahwayLogo}></img>
                 <label> Number </label>
                 </figure>
 
@@ -21,6 +23,6 @@ export default function footer(){
             </div>
         
         <p>&copy; 2025 YahWay. All Rights Reserved.</p>
-        </footer>
+        </>
     )
 }

@@ -15,8 +15,7 @@ function App() {
             <img src={YahwayLogo} alt="Yahway Logo" className="logo align-left m-10"/>
           </a>
       <Header />
-      <div>
-        
+      <div className="grid grid-cols-2 gap-10 justify-center items-center">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>

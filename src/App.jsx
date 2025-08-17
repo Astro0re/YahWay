@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import store from './components/Strore'
+import store from './components/Store'
 
 function App() {
 

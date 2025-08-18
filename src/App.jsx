@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import store from './components/Store'
+import Store from './components/Store'
+import yahwaylogo from './assets/Yahway Logo.svg'
 
 function App() {
 
-  return (
-    <>
-      <Header/>
-     <img src={reactLogo}></img>
-    </>
-  )
+	return (
+		<>
+			<img src={yahwaylogo}></img>
+			<Header/>
+			<Store />
+			<Footer />
+		</>
+	)
 }
 
 export default App

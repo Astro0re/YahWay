@@ -1,4 +1,4 @@
-import defaultpic from './asset/137891.jpg'
+import defaultpic from '../assets/defaultpic.png';
 
 export default function store(){
     return(

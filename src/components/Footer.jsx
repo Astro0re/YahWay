@@ -7,16 +7,16 @@ export default function footer() {
             <p>Reach out to us on these platforms</p>
             <div>
                 
-                <img src={YahwayLogo} className="w-10 h-auto"></img>
+                
                 <label> Email </label>
                 
                 
                 
-                <img src={YahwayLogo} className="w-10 h-auto"></img>
+                
                 <label> Number </label>
                 
             
-                <img src="@Code/Visuals/Yahway Logo.svg"></img>
+                
                 <label> Social </label>
                 
             </div>

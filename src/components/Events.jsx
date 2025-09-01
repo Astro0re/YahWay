@@ -3,7 +3,8 @@ export default function Events(){
         <>
             <section className="bg-white p-6 m-2 rounded-lg shadow gap-5">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 m-4 justify-center">
+        <div style={{display: 'grid', gridTemplateColumns : '2', gap:'5px', justifyContent : 'center'}}
+        className="grid grid-cols-1 md:grid-cols-2 gap-5 m-4 justify-center">
 
             <div className="bg-black text-center text-white p-10 rounded">
             <img  alt="Community" className="h-fit w-fit rounded p-5"></img>

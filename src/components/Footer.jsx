@@ -5,11 +5,10 @@ export default function footer() {
         <>
             <h3>Contact Us</h3>
             <p>Reach out to us on these platforms</p>
-            <div>
+            <div style={{display:'flex', flexDirection:'column', gap:'10px'}}>
                 
                 
                 <label> Email </label>
-                
                 
                 
                 

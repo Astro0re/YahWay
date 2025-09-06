@@ -6,7 +6,8 @@ import partner2 from './assets/Esi4Hxj9_400x400.jpg'
 import partner3 from './assets/HOTR.png'
 import partner4 from './assets/rccg-for-web-150x150.png'
 import pastorImage from './assets/IMG-20220926-WA0074.jpg'
-
+import Events from './components/Events'
+import Store from './components/Store'
 function App() {
 	return (
 		<div className="bg-teal-900 text-gray-800 min-h-screen p-4">
@@ -34,7 +35,8 @@ function App() {
 					</nav>
 				</div>
 			</section>
-		
+			<Events />
+			<Store />
 			{/* Hero Section */}
 			<section id="hero_" className="bg-white p-10 m-2 rounded-lg justify-center items-center text-center">
 				<p className="text-8xl p-1">Welcome to YahWay</p>

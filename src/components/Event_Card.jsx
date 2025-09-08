@@ -13,6 +13,7 @@ export default function Event_Card(){
             <img  style={{height:'fit-content', width:'fit-content', borderRadius:'10px', padding:'5px'}}></img>
             <div style={{display:'flex', flexDirection:'column', gap:'20px', justifyContent:'center', padding:'4px', background:'white', color:'black', margin:'2px', borderRadius:'10px'}}>
                 <img style={{height:'fit-content', width:'fit-content', borderRadius:'10px', padding:'5px', borderBlockColor: 'black'}}></img>
+                <adminadd />
                 <p>(Event Name here)</p>
                 <p>(Date Here)</p>
                 <p>(Location Here)</p>

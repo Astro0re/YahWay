@@ -8,6 +8,7 @@ import partner4 from './assets/rccg-for-web-150x150.png'
 import pastorImage from './assets/IMG-20220926-WA0074.jpg'
 import Events from './components/Events'
 import Store from './components/Store'
+import sign_up from './pages/Sign_up'
 function App() {
 	return (
 		<div className="bg-teal-900 text-gray-800 min-h-screen p-4">
@@ -31,7 +32,7 @@ function App() {
 						<a href="Store.html">Store</a>
 						<a href="Events.html">Events</a>
 						<a href="Partners.html">Partners</a>
-						<a href="Sign-Up.html">Sign Up</a>
+						<a href={sign_up}>Sign Up</a>
 					</nav>
 				</div>
 			</section>

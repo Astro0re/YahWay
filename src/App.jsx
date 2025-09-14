@@ -90,10 +90,10 @@ function App() {
 			<section id="partners_" className="bg-white p-6 m-2 rounded-lg shadow gap-2 justify-center items-center text-center">
 				<h2>Our Partners</h2>
 				<div className="flex gap-5 m-5 align-center">
-					<img src={partner1} alt="Partners" className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
-					<img src={partner2} alt="Partners" className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
-					<img src={partner3} alt="Partners" className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
-					<img src={partner4} alt="Partners" className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
+					<img src={partner1} alt="Partners" style={{height:'100px', weight:'auto'}} className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
+					<img src={partner2} alt="Partners" style={{height:'100px', weight:'auto'}} className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
+					<img src={partner3} alt="Partners" style={{height:'100px', weight:'auto'}} className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
+					<img src={partner4} alt="Partners" style={{height:'100px', weight:'auto'}} className="rounded h-20 w-auto mx-auto max-w-2xl md:text-center" />
 				</div>
 				<a href="Partners.html" className="text-blue-500 p-2">View All</a>
 			</section>

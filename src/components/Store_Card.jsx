@@ -1,9 +1,9 @@
 function adminadd(){
     //function to add events to the database
-    Item_name= <input type="text" />
-    Item_description= <input type="Desription" />
-    Item_price = <input type="text" />
-    return Item_name, Item_description, Item_price,
+    let Item_name= <input type="text" />
+    let Item_description= <input type="Desription" />
+    let Item_price = <input type="text" />
+    return Item_name, Item_description, Item_price
 }
 
 export default function Store_Card(){

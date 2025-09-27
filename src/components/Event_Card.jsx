@@ -1,10 +1,10 @@
 function adminadd(){
     //function to add events to the database
-    Event_name= <input type="text" />
-    Event_date= <input type="date" />
-    Event_location = <input type="number" />
-    Event_price = <input type="text" />
-    return Event_name,Event_date,Event_location,Event_price,
+    let Event_name= <input type="text" />
+    let Event_date= <input type="date" />
+    let Event_location = <input type="number" />
+    let Event_price = <input type="text" />
+    return Event_name,Event_date,Event_location,Event_price;
 }
 
 export default function Event_Card(){

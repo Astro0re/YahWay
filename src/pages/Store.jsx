@@ -1,4 +1,4 @@
-import Store_Card from './Store_Card'
+import Store_Card from '../components/Store_Card'
 export default function store(){
     return(
         <>

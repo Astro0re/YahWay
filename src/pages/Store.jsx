@@ -2,6 +2,148 @@ import Store_Card from '../components/Store_Card'
 export default function store(){
     return(
         <>
+        <body class="bg-gray-100 text-gray-800 min-h-screen p-4">
+    
+    <section class="flex flex-row p-5 justify-between">
+        <a href="Index.html"><img src="Visuals/Yahway Logo.svg" alt="Logo"
+            style="width: 200px;
+            height: auto; justify-items: center; align-items: center; padding-top: 20;"class="h-20 w-auto lg: w-200"></img></a>
+            <div class="bg-white p-6 rounded-lg shadow gap-8 justify-right items-right">
+                <nav class=" flex flex-row gap-8 text-lg justify-center items-center">    
+                <a href="Maps.html">Map</a>
+                <a href="Events.html">Events</a>
+                <a href="Partners.html">Partners</a>
+                <a href="Sign-Up.html">Sign Up</a>
+                </nav>
+            </div>
+            
+    </section>
+
+    <p class="text-6xl text-center p-5">Products</p>
+
+<section  class="bg-white p-6 m-2 rounded-lg shadow gap-4">
+    
+    <p class="text-1xl text-center p-2">For all Your Christian Needs</p>
+    <p class="text-2xl  p-2">Section</p>
+    <select class="items-center justify-center p-2 border-2 border-black rounded">
+        <option>Clothes</option>
+        <option>Books</option>
+        <option>Accesories</option>
+        <option>Merchendise</option>
+        <option>Tools/Equipment</option>
+    </select>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-2 text-white">
+        <div class="bg-black text-center text-white p-10 rounded">
+            <img src="Visuals/137891.jpg" alt="Community" class="h-fit w-fit rounded p-5"></img>
+            <div class="flex flex-row flex-warp gap-20 justify-center p-4 bg-white text-black m-2 rounded">
+                <p>Head Warmer </p>
+                <p>$10</p>
+            </div>
+                <button class="bg-blue-500 text-white p-2 rounded-md bottom-auto center[10px]">Add to Cart</button>
+        </div>
+
+        <div class="bg-black text-center text-white p-10 rounded">
+            <img src="Visuals/137891.jpg" alt="Community" class="h-fit w-fit rounded p-5"></img>
+            <div class="flex flex-row gap-20 justify-center p-4 bg-white text-black m-2 rounded">
+                <p>Head Warmer </p>
+                <p>$10</p>
+            </div>
+                <button class="bg-blue-500 text-white p-2 rounded-md bottom-auto center[10px]">Add to Cart</button>
+        </div>
+
+        <div class="bg-black text-center text-white p-10 rounded">
+            <img src="Visuals/137891.jpg" alt="Community" class="h-fit w-fit rounded p-5"></img>
+            <div class="flex flex-row gap-20 justify-center p-4 bg-white text-black m-2 rounded">
+                <p>Head Warmer </p>
+                <p>$10</p>
+            </div>
+                <button class="bg-blue-500 text-white p-2 rounded-md bottom-auto center[10px]">Add to Cart</button>
+        </div>
+
+        <div class="bg-black text-center text-white p-10 rounded">
+            <img src="Visuals/137891.jpg" alt="Community" class="h-fit w-fit rounded p-5"></img>
+            <div class="flex flex-row gap-20 justify-center p-4 bg-white text-black m-2 rounded">
+                <p>Head Warmer </p>
+                <p>$10</p>
+            </div>
+                <button class="bg-blue-500 text-white p-2 rounded-md bottom-auto center[10px]">Add to Cart</button>
+        </div>
+
+        <div class="bg-black text-center text-white p-10 rounded">
+            <img src="Visuals/137891.jpg" alt="Community" class="h-fit w-fit rounded p-5"></img>
+            <div class="flex flex-row gap-20 justify-center p-4 bg-white text-black m-2 rounded">
+                <p>Head Warmer </p>
+                <p>$10</p>
+            </div>
+                <button class="bg-blue-500 text-white p-2 rounded-md bottom-auto center[10px]">Add to Cart</button>
+        </div>
+
+        <div class="bg-black text-center text-white p-10 rounded">
+            <img src="Visuals/137891.jpg" alt="Community" class="h-fit w-fit rounded p-5"></img>
+            <div class="flex flex-row gap-20 justify-center p-4 bg-white text-black m-2 rounded">
+                <p>Head Warmer </p>
+                <p>$10</p>
+            </div>
+                <button class="bg-blue-500 text-white p-2 rounded-md bottom-auto center[10px]">Add to Cart</button>
+        </div>
+
+        
+
+    </div>
+</section>
+   
+    <footer>
+        <section class="bg-white p-6 m-2 rounded-lg shadow justify-left items-left text-left">
+                <h2 class="text-center text-3xl">Contact Us</h2>
+                <p class="text-center">For any inquiries, please contact us at:</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 justify-between m-5 gap-3">
+                
+                <div class="justify-center text-left">
+                    <p>Official</p>
+                    <p>Phone:</p>
+                    <p class="hover:text-blue-500">080-123-4567</p>
+                    <p>Email:</p>
+                    <p class="hover:text-blue-500">example@gmail.com</p>
+                </div> 
+                
+                <div class="text-left justify-center">
+                    <p>Socials </p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                    <p>Instagram</p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                    <p>Twitter</p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                    <p>Facebook</p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                </div>  
+                
+                <div class="grid grid-cols-1 justify-center text-left">
+                    <a class="hover:text-blue-500">Terms</a>
+                    <a class="hover:text-blue-500">Privacy</a>
+                    <a class="hover:text-blue-500">Docs</a>
+                    <a class="hover:text-blue-500">Help</a>
+                </div> 
+            
+            
+            
+            </div>
+            
+    
+    
+    
+            
+            <div class="text-center ">
+            
+            &copy; 2025 YahWay. All right reserved
+            </div>
+    
+           
+        </section>
+    </footer>      
+    
+</body>
         <div style={{display: 'grid', gridTemplateColumns : 'repeat(2, 1fr)', gap:'5px', justifyContent : 'center'}}>
         <Store_Card />
         <Store_Card />

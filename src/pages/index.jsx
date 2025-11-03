@@ -9,12 +9,9 @@ import pastorImage from './assets/IMG-20220926-WA0074.jpg'
 import Events from './components/Events'
 import Store from './components/Store'
 import sign_up from './pages/Sign_up'
-import { Routes, Route } from 'react-router-dom'
-
-export default function index(){
-    return(
-        <>
-            <div className="bg-teal-900 text-gray-800 min-h-screen p-4">
+function Index() {
+	return (
+		<div className="bg-teal-900 text-gray-800 min-h-screen p-4">
 			{/* Header Section */}
 			<section className="flex flex-row p-3 gap-5 justify-between">   
 				<img 
@@ -31,12 +28,6 @@ export default function index(){
 				/>
 				<div className="bg-white p-6 rounded-lg shadow gap-8 justify-right items-right">
 					<nav className="flex flex-row gap-8 text-lg justify-center items-center">
-                        <Routes>
-                            <Route path='/maps' element={<map />} />
-                            <Route path='/store' element={<Store />} />
-                            <Route path='/events' element={<Events />} />
-                            <Route path='/partners' element={<partners />} />
-                        </Routes>
 						<a href="Maps.html">Map</a>
 						<a href="Store.html">Store</a>
 						<a href="Events.html">Events</a>
@@ -167,6 +158,7 @@ export default function index(){
 				</section>
 			</footer>     
 		</div>
-        </>
-    )
+	)
 }
+
+export default App

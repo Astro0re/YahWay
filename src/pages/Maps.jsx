@@ -1,0 +1,151 @@
+export default function Maps(){
+    return(
+        <>
+        
+    <section class="flex flex-row p-5 justify-between">
+        <a href="Index.html"><img src="Visuals/Yahway Logo.svg" alt="Logo"
+          style="width: 200px;
+          height: auto; justify-items: center; align-items: center; padding-top: 20;"class="h-20 w-auto lg: w-200" ></img></a>
+            <div class="bg-white p-6 rounded-lg shadow gap-8 justify-right items-right">
+                <nav class=" flex flex-row gap-8 text-lg justify-center items-center">    
+                <a href="Store.html">Store</a>
+                <a href="Events.html">Events</a>
+                <a href="Partners.html">Partners</a>
+                <a href="Sign-Up.html">Sign Up</a>
+                </nav>
+            </div>
+            
+    </section>
+
+    
+
+    <section>
+        <div class="bg-white p-6 m-2 rounded-lg gap-4 text-center shadow">
+                <p class="text-6xl">Connecting you to GOD wherever you are</p>
+                <p class="text-4xl">Find your tribe now</p>
+            </div>
+    </section>
+
+    
+
+    <section class="m-5 mx-auto max-w-2xl md:text-center rounded">
+        
+        <div class=" justify-center items-center">
+      <select>
+        <option>Select</option>
+        <option>Charismatic Renewal Ministeries</option>
+        <option>The Elevation Church</option>
+        <option>The RCCG</option>
+        <option>The House on the Rock</option>
+      </select>
+      <button class="bg-blue-500 rounded shadow m-3 p-2 text-white mx-auto max-w-2xl md:text-center rounded">Find</button>
+      </div>
+
+        <iframe
+        width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyANDDxyamttNttHwqKV_McgH3ozlOtfJw0
+          &q=Space+Needle,Seattle+WA">
+      </iframe>
+      
+      
+     
+      <iframe
+        width="600"
+        height="450"
+        frameborder="0" style="border:0"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/MAP_MODE?key=AIzaSyANDDxyamttNttHwqKV_McgH3ozlOtfJw0&PARAMETERS"
+        allowfullscreen>
+        </iframe>
+
+      
+    
+    <button class="bg-blue-500 rounded shadow m-3 p-2 text-white mx-auto max-w-2xl md:text-center rounded"><a href="Google_Maps.html" target="_blank">Expand</a></button>
+    
+    </section>
+
+    <section  class="bg-white p-6 m-2 rounded-lg shadow gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <a href="https://www.google.com/maps/place/Yahway+Church/@5.551991,7.492156,15z/data=!4m2!3m1!1s0x10426f8b72588385:0x224d643975f01dab?hl=en">
+            Find Your Way to Your Yahway Church (link atttached)
+        </a>
+        <a href="https://developers.google.com/maps/apis-by-platform">
+            Map Api 
+        </a>
+    </div>
+    </section>
+
+    <section class="bg-white p-6 m-2 rounded-lg shadow gap-4">
+        <p class="text-3xl text-center p-4">With hundreds of partnered church centers, we are sure to connect you to a place to call home.</p>
+        <div class="rounded shadow flex flex-row gap-10">
+            <img src="Visuals/x1oIWTes_400x400.jpg" alt="CRM" style="align-items: right; width: 90px;
+                            height: 90px;"class="mx-auto max-w-2xl md:text-center rounded m-2"></img>
+            
+            <img src="Visuals/Esi4Hxj9_400x400.jpg" alt="Elevation" style="align-items: right; width: 90px;
+                            height: 90px;"class="mx-auto max-w-2xl md:text-center rounded m-2 "></img>
+
+            <img src="Visuals/rccg-for-web-150x150.png" alt="Redeem" style="align-items: right; width: 90px;
+                            height: 90px;"class="mx-auto max-w-2xl md:text-center rounded m-2"></img>
+        </div>
+        <p>Just go through our curch cataloug, find a ministry that connects with you and find and find the closest branch near you.</p>
+    </section>
+   
+    <footer>
+        <section class="bg-white p-6 m-2 rounded-lg shadow justify-left items-left text-left">
+                <h2 class="text-center text-3xl">Contact Us</h2>
+                <p class="text-center">For any inquiries, please contact us at:</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 justify-between m-5 gap-3">
+                
+                <div class="justify-center text-left">
+                    <p>Official</p>
+                    <p>Phone:</p>
+                    <p class="hover:text-blue-500">080-123-4567</p>
+                    <p>Email:</p>
+                    <p class="hover:text-blue-500">example@gmail.com</p>
+                </div> 
+                
+                <div class="text-left justify-center">
+                    <p>Socials </p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                    <p>Instagram</p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                    <p>Twitter</p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                    <p>Facebook</p>
+                    <a class="hover:text-blue-500">@yahway</a>
+                </div>  
+                
+                <div class="grid grid-cols-1 justify-center text-left">
+                    <a class="hover:text-blue-500">Terms</a>
+                    <a class="hover:text-blue-500">Privacy</a>
+                    <a class="hover:text-blue-500">Docs</a>
+                    <a class="hover:text-blue-500">Help</a>
+                </div> 
+            
+            
+            
+            </div>
+            
+    
+    
+    
+            
+            <div class="text-center ">
+            
+            &copy; 2025 YahWay. All right reserved
+            </div>
+    
+           
+        </section>
+    </footer>   
+    
+
+        </>
+    )
+}

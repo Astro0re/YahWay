@@ -24,8 +24,7 @@ export default function store(){
 
 
 
-import Store_Card from '../components/Store_Card'
-export default function store(){
+export function store_1(){
     return(
         <>
         <body class="bg-gray-100 text-gray-800 min-h-screen p-4">

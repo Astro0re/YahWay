@@ -1,4 +1,4 @@
-function sign_up(){
+export default function sign_up(){
     return(
         <div style={{margin:'200px', boarder:'white', }}>
             <h1>Sign Up</h1>
@@ -12,4 +12,4 @@ function sign_up(){
     )
 }
 
-export default sign_up
+

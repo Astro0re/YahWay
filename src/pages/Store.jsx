@@ -1,6 +1,6 @@
 import Store_Card from '../components/Store_Card'
 // function the filters shop items based on tags in the card
-export default function store(){
+export default function Store(){
     return(
         <>
             <div style={{display: 'block', alignContent:'center', justifyContent: "center", textAlign:'center', textShadow: 'revert'}}>

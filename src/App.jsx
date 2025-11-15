@@ -8,6 +8,7 @@ import Maps from './pages/Maps'
 
 function App() {
 	return (
+		<>
 		<Routes>
 			<Route path='/' element={Index} />
 			<Route path='/sign_up' element={sign_up } />
@@ -16,6 +17,7 @@ function App() {
 			<Route path='/event' element={Events} />
 			<Route path='/partners' element />
 		</Routes>
+		</>
 		)
 }
 

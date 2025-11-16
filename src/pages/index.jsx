@@ -9,7 +9,7 @@ import pastorImage from './assets/IMG-20220926-WA0074.jpg'
 import Events from './components/Events'
 import Store from './components/Store'
 import sign_up from './pages/Sign_up'
-export default function Index() {
+function Index() {
 	return (
 		<div className="bg-teal-900 text-gray-800 min-h-screen p-4">
 			{/* Header Section */}
@@ -161,3 +161,4 @@ export default function Index() {
 	)
 }
 
+export default Index

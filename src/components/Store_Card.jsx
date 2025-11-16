@@ -7,11 +7,13 @@
 </form>
 </>
 
+import Items from './StoreItems.json' 
+
 function adminadd(){
     //function to add events to the database
     let count={}
     let Item_ID= count++
-    let Item_name= <input type="text" />
+    let Item_name= {Items.name}
     let Item_description= <input type="Desription" />
     let Item_price = <input type="text" />
     return Item_ID,Item_name, Item_description, Item_price

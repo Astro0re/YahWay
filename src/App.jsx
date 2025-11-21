@@ -5,12 +5,13 @@ import sign_up from './pages/sign_up'
 import store from './pages/Store'
 import Events from './pages/Events'
 import Maps from './pages/Maps'
+import Home from './pages/home'
 
 function App() {
 	return (
 		<>
 		<Routes>
-			<Route path='/' element={Index} />
+			<Route path='/' element={Home} />
 			<Route path='/sign_up' element={sign_up } />
 			<Route path='/map' element={Maps} />
 			<Route path='/shop' element={store} />

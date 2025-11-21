@@ -10,7 +10,7 @@
 	import Store from './components/Store'
 	import sign_up from './pages/Sign_up'
 
-	function Index() {
+	function Home() {
 		return (
 			<div className="bg-teal-900 text-gray-800 min-h-screen p-4">
 				{/* Header Section */}
@@ -159,7 +159,7 @@
 					</section>
 				</footer>     
 			</div>
-		)
+		)   
 	}
 
-	export default Index
+	export default Home;
